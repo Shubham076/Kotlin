@@ -5,40 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="bda58467-d0a5-43fc-ae4f-e7fe234d32a7" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/codeStyles/Project.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/codeStyles/codeStyleConfig.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/kotlinc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/KotlinJavaRuntime.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/jetbrains_kotlinx_coroutines_core.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/kotlin.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/kotlin/arrays.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/kotlin/collections/arrayList.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/kotlin/collections/linkedList.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/kotlin/collections/map.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/kotlin/collections/priorityQueue.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/kotlin/collections/set.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/kotlin/collections/stack.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/kotlin/functions.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/kotlin/global.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/kotlin/loops.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/kotlin/multithreading/couroutines.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/kotlin/multithreading/threads.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/kotlin/oops/Comparison.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/kotlin/oops/generics.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/kotlin/oops/inheritance/Comparable.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/kotlin/oops/inheritance/child.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/kotlin/oops/inheritance/client.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/kotlin/oops/inheritance/parent.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/kotlin/oops/person.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/kotlin/oops/shape.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/kotlin/string.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/kotlin/variable.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/kotlin/multithreading/couroutines.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/multithreading/couroutines.kt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -67,22 +35,22 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "Downloaded.Files.Path.Enabled": "false",
-    "Repository.Attach.Annotations": "false",
-    "Repository.Attach.JavaDocs": "false",
-    "Repository.Attach.Sources": "false",
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "project.structure.last.edited": "Modules",
-    "project.structure.proportion": "0.15",
-    "project.structure.side.proportion": "0.2",
-    "settings.editor.selected.configurable": "reference.settingsdialog.IDE.editor.colors.Kotlin"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;Downloaded.Files.Path.Enabled&quot;: &quot;false&quot;,
+    &quot;Repository.Attach.Annotations&quot;: &quot;false&quot;,
+    &quot;Repository.Attach.JavaDocs&quot;: &quot;false&quot;,
+    &quot;Repository.Attach.Sources&quot;: &quot;false&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;reference.settingsdialog.IDE.editor.colors.Kotlin&quot;
   }
-}]]></component>
-  <component name="RunManager" selected="Kotlin.ThreadsKt">
+}</component>
+  <component name="RunManager" selected="Kotlin.CouroutinesKt">
     <configuration name="ClientKt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="oops.inheritance.ClientKt" />
       <module name="kotlin" />
@@ -120,8 +88,8 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Kotlin.ThreadsKt" />
         <item itemvalue="Kotlin.CouroutinesKt" />
+        <item itemvalue="Kotlin.ThreadsKt" />
         <item itemvalue="Kotlin.GlobalKt" />
         <item itemvalue="Kotlin.ComparableKt" />
         <item itemvalue="Kotlin.ClientKt" />

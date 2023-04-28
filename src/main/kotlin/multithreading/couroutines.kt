@@ -9,13 +9,34 @@ completes.
 
 alternate of run block
  */
+
+fun add(a: Int, b: Int): Int {
+    return a + b
+}
 fun main() {
-    runBlocking {
-        val jobs = List(100) { // launch a lot of coroutines and list their jobs
+    for (i in 1..100) {
+        runBlocking {
+            // launch is a coroutine builder that launches a new coroutine without returning a result
             launch(Dispatchers.Default) {
-                println("This is coroutine $it. Thread name: ${Thread.currentThread().name}")
+                val v = add(2, 3)
             }
         }
+        print("$i ")
     }
+
+
+    for (i in 1..100) {
+        runBlocking {
+//    async is a coroutine builder that launches a new coroutine and returns an instance of Deferred<T>
+            var f = async(Dispatchers.Default) {
+                add(2, 3)
+            }
+            val res = f.await() // wait for the result
+            println("User data: $res")
+        }
+        print("$i ")
+    }
+    println()
+
     println("All co-routines closed")
 }
