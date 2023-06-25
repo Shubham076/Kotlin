@@ -1,10 +1,9 @@
 package collections
-
+import java.util.PriorityQueue;
 
 fun main() {
     // Creating a PriorityQueue
-    var priorityQueue = java.util.PriorityQueue<Int>()
-
+    var priorityQueue = PriorityQueue<Int>()
     // Adding elements to the PriorityQueue
     priorityQueue.add(3)
     priorityQueue.add(1)
